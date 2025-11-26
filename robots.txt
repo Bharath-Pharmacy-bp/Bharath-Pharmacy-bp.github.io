@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.bharathpharmacy-bp.com/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /sw.js
+Disallow: /manifest.json
+
+# Allow important files
+Allow: /styles.css
+Allow: /script.js
+Allow: /favicon.ico
