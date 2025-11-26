@@ -126,7 +126,7 @@ body {
 }
 
 .nav-logo .logo-img {
-    height: 40px;
+    height: 50px;
     width: auto;
     margin-right: 10px;
     object-fit: contain;
@@ -295,6 +295,14 @@ body {
     animation: shimmer 3s ease-in-out infinite;
 }
 
+.hero-logo {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(1.1);
+    animation: shimmer 3s ease-in-out infinite;
+}
+
 @keyframes shimmer {
     0%, 100% { filter: brightness(1); }
     50% { filter: brightness(1.2); }
@@ -455,7 +463,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -820,7 +828,7 @@ section {
 }
 
 .footer-logo .logo-img {
-    height: 30px;
+    height: 80px;
     width: auto;
     margin-right: 10px;
     object-fit: contain;
